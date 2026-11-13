@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>技术支持 — ZT Git</title><meta name="description" content="ZT Git 使用帮助与技术支持。了解添加项目、提交、远程认证、历史记录与搁置，并联系开发者反馈问题。"><link rel="icon" href="icon.png"><link rel="stylesheet" href="styles.css"></head>
+<body><header class="nav wrap"><a class="brand" href="./"><img src="icon.png" width="36" height="36" alt="">ZT Git</a><nav aria-label="主导航"><a href="./">产品介绍</a><a class="active" href="support.html" aria-current="page">技术支持</a></nav></header>
+<main class="support wrap"><p class="eyebrow">ZT GIT / SUPPORT</p><h1>需要帮助？<br><span>从这里开始。</span></h1><p class="lead">查看常见问题，或把遇到的情况告诉我们。</p>
+<section id="contact" class="contact-card" aria-labelledby="contact-title"><div><p class="eyebrow">联系开发者</p><h2 id="contact-title">问题反馈与功能建议</h2><p>技术支持邮箱：<a class="email" href="mailto:3193152800@qq.com?subject=ZT%20Git%20%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81">3193152800@qq.com</a></p><p class="small">点击邮箱可打开邮件应用；也可复制地址，使用你常用的邮箱发送反馈。</p></div><a class="button primary" href="mailto:3193152800@qq.com?subject=ZT%20Git%20%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81">发送支持邮件 ↗</a></section>
+<section class="support-layout"><div><p class="eyebrow">使用帮助</p><h2>常见问题</h2><p class="body-copy">运行要求：macOS 26.5 或更高版本，配备 Apple Silicon 芯片的 Mac。</p></div><div class="faq">
+<details open><summary>需要单独安装 Git 吗？</summary><div><p>ZT Git 内置适用于 Apple Silicon 的 Git，日常使用无需额外安装 Git 或 Xcode 命令行工具。Git LFS、GPG 等外部工具不包含在内；使用相应功能时需自行配置。</p></div></details>
+<details><summary>如何添加已有项目？</summary><div><p>点击左上角“+”，选择“添加项目”，再选择包含 Git 仓库的本地项目文件夹或其中的子目录。也可以选择普通仓库的 .git 文件夹；项目支持按分组整理。</p></div></details>
+<details><summary>如何查看差异并提交？</summary><div><p>打开项目后，在“更改”中选择文件查看差异，使用文件旁的“+”暂存需要提交的文件。输入提交说明后，点击提交按钮。存在未解决的冲突时需要先处理冲突。</p></div></details>
+<details><summary>远程连接或认证失败怎么办？</summary><div><p>检查仓库地址、网络和账号权限。在“设置 → Git 服务器与账号”检查 HTTPS 凭据或 SSH 密钥配置，也可以使用系统 Git 配置。保存账号本身不会验证服务器权限。</p><p>首次连接新的 SSH 服务器时，请先与服务器管理员核对显示的主机指纹，再决定是否信任。</p></div></details>
+<details id="history"><summary>如何查看历史或导出历史版本？</summary><div><p>切换到“历史”，可以使用列表或树状图查看记录，搜索已加载的提交。在指定提交上打开右键菜单，选择“导出此版本项目…”，将快照导出为 ZIP。导出不包含 .git、未提交更改和未跟踪文件，也不会额外下载子模块或 Git LFS 对象。</p></div></details>
+<details id="stash"><summary>如何暂时保存并恢复更改？</summary><div><p>在“更改”菜单选择“搁置…”，填写说明并确认。之后在左侧“搁置”中查看记录，通过右键菜单选择恢复并保留，或恢复并移除。恢复前请先处理当前工作区的更改。</p></div></details>
+<details><summary>合并或拉取时出现冲突怎么办？</summary><div><p>根据工作区提示打开冲突处理界面。对于支持的文本冲突，可以选择一方的完整版本或手动编辑，保存并暂存后继续操作。部分特殊文件需要使用外部工具处理。</p></div></details>
+<details><summary>如何切换语言和外观？</summary><div><p>打开“设置 → 通用”，选择简体中文、English 或跟随系统；外观可选择浅色、深色或跟随系统。设置会保存并立即生效。</p></div></details>
+</div></section><section class="feedback"><h2>反馈时，请附上这些信息</h2><ul><li>ZT Git 版本、macOS 版本和 Mac 芯片型号。</li><li>执行了什么操作，预期结果与实际结果分别是什么。</li><li>经过脱敏的错误信息、截图，以及可以重复问题的步骤。</li></ul><p class="small">请不要发送仓库密码、SSH 私钥、访问令牌或未获授权的项目代码。截图中的仓库地址、用户名和文件路径可先做遮盖。</p></section></main>
+<footer class="wrap footer"><span>© 2026 ZT · ZT Git</span><nav aria-label="页脚导航"><a href="./">返回产品介绍</a></nav></footer></body></html>
